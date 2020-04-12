@@ -11,7 +11,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/nodejs-template), pl
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/nodejs-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
-@[Hello world :) ]({ "stubs": ["index.js", "index.html"], "command": "echo \"TECHIO> open -s index.html\"" })
+@[Hello world :) ]({ "stubs": ["index.js", "index.html"], "command": "echo \"TECHIO> open -s nodejs-project/index.html\"" })
 
 
 # Template Resources
