@@ -1,7 +1,9 @@
-title: Node.js Project
+title: Test html + js
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
+  - title: Welcome
+    statement: markdowns/welcome.md
+  - title: Aside
+    statement: markdowns/aside.md
 projects:
   nodejs:
     root: /nodejs-project
