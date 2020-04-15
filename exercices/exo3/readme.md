@@ -22,4 +22,4 @@ _Conseils :_
 - Vous avez du mal à masquer les elements ? La classe `hidden` n'est pas là par hasard.
 - Notez que `[Refrain]` est déjà présent dans `index.html`, peut être qu'il est possible de les _remplacer_ seulement de manière visuelle (sans avoir a supprimer du texte).
 
-@[Exercice 3]({"layout": "aside", "stubs": ["exo3/src/index.js", "exo3/src/index.html", "exo3/src/style.css"], "command": "echo \"TECHIO> open -s /project/target/exo3/src/ index3.html\"" })
+@[Exercice 3]({"layout": "aside", "stubs": ["exo3/src/index.js", "exo3/src/index3.html", "exo3/src/style.css"], "command": "echo \"TECHIO> open -s /project/target/exo3/src/ index3.html\"" })
