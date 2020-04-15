@@ -26,7 +26,7 @@ Il en revient à vous pour corriger les erreurs qui y sont glissés
  - Utilisez `parent.removeChild(enfant)` afin de supprimer un élément `enfant` d'un élément `parent`.
  - Faites attention lorsque vous modifiez les elements d'une liste lors de son parcours.
 
-@[Exercice 1]({ "stubs": ["exo1/index.js", "exo1/index.html"], "command": "echo \"TECHIO> open -s /project/target/exo1/ index-test.html\"" })
+@[Exercice 1]({ "stubs": ["exo1/index.js", "exo1/index.html"], "command": "echo \"TECHIO> open -s /project/target/exo1/ index-copy.html\"" })
 
 ## Exercice 2
 
