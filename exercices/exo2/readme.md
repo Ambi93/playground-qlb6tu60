@@ -4,7 +4,7 @@ Cette fois, les paroles ont correctement été ajoutés. Mais ne parlant pas ang
 
 Comme pour l'exercice précédent, toute modification des fichiers `index.html` et `style.css` sera ignorée. Les deux fichier sont présents à titre indicatif.
 
-> 1. Supprimmez la classe `red`.
+> 1. Supprimez la classe `red`.
 > 2. Mettez en italique tous les refrains.
 > 3. La couleur de la classe `blue` est trop forte, trouvez un moyen de mettre une couleur blue plus douce (`#8A2BE2`, `#6495ED` par exemple).
 > 4. Avez vous réussi a ne pas laisser d'espaces blancs entre chaque paragraphe ?
