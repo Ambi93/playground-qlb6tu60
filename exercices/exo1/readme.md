@@ -1,8 +1,8 @@
 # Exercice 1
 
-Suite à un oubli de la part du créateur de l'exercice plusieurs éléments n'ont pas été ajoutés dans la page.
+Suite à un oubli de la part du créateur de l'exercice plusieurs erreurs n'ont pas été corrigés sur la page.
 
-Il en revient à vous pour corriger les erreurs qui y sont glissés
+Il en revient à vous pour corriger les erreurs qui y sont glissés.
 
 **Note :** Le fichier `index.html` est en lecture seule et n'est affiché qu'à titre indicatif. Vous ne pouvez agir sur ce fichier qu'en javascript.
 
