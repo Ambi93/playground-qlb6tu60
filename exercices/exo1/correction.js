@@ -21,3 +21,8 @@ for (const refrain of document.querySelectorAll('.refrain')) {
 
 // 4
 document.getElementById('erreur').remove();
+
+//5
+document.body
+  .appendChild(document.createElement('footer'))
+  .appendChild(document.createTextNode('© Copyright 2020 - IUT'));

@@ -13,7 +13,7 @@ Il en revient à vous pour corriger les erreurs qui y sont glissés
 > 3. Le refrain s'est dupliqué à cause de l'écho. Supprimez les occurences en double.  
 >    *N'oubliez pas de supprimer le `<br />` qui cause le retour à la ligne*
 > 4. Maintenant que toutes les erreurs ont été corrigées, supprimer l'élément ayant pour id `erreur`
-> 5. Ajoutez en bas de la page (dernier element de `<body>`), un `<footer>` contenant `&copy; Copyright 2020 - Nom`
+> 5. Ajoutez en bas de la page (dernier element de `<body>`), un `<footer>` contenant `© Copyright 2020 - Nom`
 
 *Conseils :*
 
