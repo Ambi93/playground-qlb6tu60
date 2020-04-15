@@ -14,4 +14,4 @@ Contenu du CSS:
 }
 ```
 
-@[Exercice 2]({ "stubs": ["src/index.js", "src/index.html"], "command": "echo \"TECHIO> open -s /project/target/exo2/src/ index.html\"" })
+@[Exercice 2]({ "stubs": ["exo2/src/index.js", "exo2/src/index.html"], "command": "echo \"TECHIO> open -s /project/target/exo2/src/ index.html\"" })
