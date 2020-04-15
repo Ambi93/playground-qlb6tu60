@@ -12,7 +12,7 @@ Comme pour l'exercice précédent, toute modification des fichiers `index.html` 
 _Conseils :_
 
 - Utilisez l'attribut `classList`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/classList) d'un element afin de manipuler les classes de cet objet.
-- Vous ne pouvez pas modifier le css, mais vous pouvez ajouter l'attribut `style`[<sup>1</sup>](https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/style) en utilisant `setAttribute()`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/setAttribute) par exemple.  
+- Vous ne pouvez pas modifier le css, mais vous pouvez ajouter l'attribut `style`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/style) en utilisant `setAttribute()`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/setAttribute) par exemple.  
   _Il est aussi possible de directement manipuler les styles via une API[<sup>ref</ref>](https://developer.mozilla.org/fr/docs/Web/API/HTMLElement/style)_.
 - Il y a un moyen d'ajouter la couleur d'arrière plan à l'ensemble des `paroles`... .
 
