@@ -4,7 +4,7 @@ Suite à un oubli de la part du créateur de l'exercice plusieurs éléments n'o
 
 Il en revient à vous pour corriger les erreurs qui y sont glissés
 
-**Note :** Vous n'avez pas accès au fichier `index.html` original, vous ne pouvez agir dessus qu'en javascript. Le fichier `index.html` affiché n'est présent qu'à titre indicatif.
+**Note :** Le fichier `index.html` est en lecture seule et n'est affiché qu'à titre indicatif. Vous ne pouvez agir sur ce fichier qu'en javascript.
 
 
 > 1. Selectionnez le premier fils de l'élèment `body` et modifiez son contenu en `Rick Astley - Never Gonna Give You Up`.
@@ -23,5 +23,5 @@ Il en revient à vous pour corriger les erreurs qui y sont glissés
  - Utilisez `parent.removeChild(enfant)`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Node/removeChild) afin de supprimer un élément `enfant` d'un élément `parent`.
  - Faites attention lorsque vous modifiez les elements d'une liste lors de son parcours.
 
-@[Exercice 1]({ "layout": "aside", "stubs": ["exo1/src/index.js", "exo1/src/index.html"], "command": "echo \"TECHIO> open -s /project/target/exo1/src/ index-copy.html\"" })
+@[Exercice 1]({ "layout": "aside", "stubs": ["exo1/src/index.js", "exo1/read-only/index.html"], "command": "echo \"TECHIO> open -s /project/target/exo1/src/ index.html\"" })
 
