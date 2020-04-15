@@ -1,12 +1,15 @@
 title: Test html + js
 plan:
-  - title: Welcome
-    statement: markdowns/welcome.md
-  - title: Aside
-    statement: markdowns/aside.md
+  - title: Manipulation du DOM en js vanilla
+    description: Manipulation du DOM en utilisant les fonctionnalités natives javascript.
+    plan:
+      - title: Exercice 1
+        statement: exercices/exo1/readme.md
+      - title: Exercice 2
+        statement: exercices/exo2/readme.md
 projects:
   nodejs:
-    root: /nodejs-project
+    root: /exercices
     runner:
       name: techio/node-npm-runner
       version: latest
