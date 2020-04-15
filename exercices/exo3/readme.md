@@ -1,20 +1,20 @@
 # Exercice 3
 
-Après avoir été rappelé à l'ordre, la créatrice à correctement rempli la page et le css. Par contre, elle n'as pas réussi à mettre en place les evènements; elle ne sait pas faire de `js`. 
+Après avoir été rappelé à l'ordre, la créatrice à correctement rempli la page et le css. Par contre, elle n'as pas réussi à mettre en place les evènements; elle ne sait pas faire de `js`.
 Ayant entendu parlé de vous, elle vous délègue cette tache, ayant même pris soin de permettre la modification de ses fichiers pour que ce soit plus facile.
 
-*Remarque* : Il n'y a normalement pas besoin de modifier `index.html` et `style.css`, ils sont modifiables afin que vous puissiez ajouter des interactions et décorations supplémentaires.
+_Remarque_ : Il n'y a normalement pas besoin de modifier `index.html` et `style.css`, ils sont modifiables afin que vous puissiez ajouter des interactions et décorations supplémentaires.
 
 > 1. Lorsque la boite "Masquer les paroles" est cochée, masquez tout les paroles et modifiez l'intitulé en "Afficher les paroles"  
 >    ![Exemple avec les paroles masquées](images/paroles_masques.png 'Exemple avec paroles masquées')
 > 2. Lorsque la boite "Masquer les refrains" est cochée, _remplacez_ tous les refrains **sauf le premier** par `[Refrain]`, et modifiez l'intitulé de la boite en "Afficher les refrains"  
 >    ![Exemple avec les paroles masquées](images/refrains_masques.png 'Exemple avec paroles masquées')
 > 3. Lorsque les refrains sont masqués. Lors du survol de `[Refrain]`, afficher le contenu du refrain :
->   ![Exemple avec les paroles masquées](images/refrains_hover.gif')
+>    ![Exemple avec les paroles masquées](images/refrains_hover.gif 'Exemple de survol de [Refrain]')
 
 _Conseils :_
 
-- Si quand les cases sont cochées les éléments sont masquées avec succes, mais  rappellez vous qu'il doit aussi être possible de les afficher à nouveau.
+- Si quand les cases sont cochées les éléments sont masquées avec succes, mais rappellez vous qu'il doit aussi être possible de les afficher à nouveau.
 - Utilisez `element.addEventListener()`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/EventTarget/addEventListener) pour attacher une évènement à un element.
 - Utilisez l'évènement `click` pour savoir quand la case est cochée.  
   Pour connaitre l'état de la case (cochée ou non), utiliser l'attribut `checked`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/checkbox#checked).
