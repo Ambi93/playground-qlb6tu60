@@ -9,7 +9,7 @@ _Remarque_ : Il n'y a normalement pas besoin de modifier `index.html` et `style.
 >    ![Exemple avec les paroles masquées](images/paroles_masques.png 'Exemple avec paroles masquées')
 > 2. Lorsque la boite "Masquer les refrains" est cochée, _remplacez_ tous les refrains **sauf le premier** par `[Refrain]`, et modifiez l'intitulé de la boite en "Afficher les refrains"  
 >    ![Exemple avec les paroles masquées](images/refrains_masques.png 'Exemple avec paroles masquées')
-> 3. Lorsque les refrains sont masqués. Lors du survol de `[Refrain]`, afficher le contenu du refrain :
+> 3. Lorsque les refrains sont masqués. Le du survol de `[Refrain]` affiche le contenu du refrain :
 >    ![Exemple avec les paroles masquées](images/refrains_hover.gif 'Exemple de survol de [Refrain]')
 
 _Conseils :_
@@ -21,3 +21,5 @@ _Conseils :_
 - Utilisez l'évènement `mouseenter`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/mouseenter_event) pour savoir quand la souris survole l'element et `mouseleave`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/mouseleave_event) pour savoir quand la souris ne le survole plus.
 - Vous avez du mal à masquer les elements ? La classe `hidden` n'est pas là par hasard.
 - Notez que `[Refrain]` est déjà présent dans `index.html`, peut être qu'il est possible de les _remplacer_ seulement de manière visuelle (sans avoir a supprimer du texte).
+
+@[Exercice 3]({"layout": "aside", "stubs": ["exo3/src/index.js", "exo3/src/index.html", "exo3/src/style.css"], "command": "echo \"TECHIO> open -s /project/target/exo3/src/ index.html\"" })
