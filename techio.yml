@@ -7,6 +7,8 @@ plan:
         statement: exercices/exo1/readme.md
       - title: 2. Ajout d'attributs, classes
         statement: exercices/exo2/readme.md
+      - title: 3. Evenements et interactions
+        statement: exercices/exo3/readme.md
 projects:
   nodejs:
     root: /exercices

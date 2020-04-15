@@ -9,11 +9,11 @@ Comme pour l'exercice précédent, toute modification des fichiers `index.html` 
 > 3. La couleur de la classe `blue` est trop forte, trouvez un moyen de mettre une couleur blue plus douce (`#8A2BE2`, `#6495ED` par exemple).
 > 4. Avez vous réussi a ne pas laisser d'espaces blancs entre chaque paragraphe ?
 
-*Conseils :*
+_Conseils :_
 
 - Utilisez l'attribut `classList`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/classList) d'un element afin de manipuler les classes de cet objet.
 - Vous ne pouvez pas modifier le css, mais vous pouvez ajouter l'attribut `style`[<sup>1</sup>](https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/style) en utilisant `setAttribute()`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/setAttribute) par exemple.  
-  *Il est aussi possible de directement manipuler les styles via une API[<sup>ref</ref>](https://developer.mozilla.org/fr/docs/Web/API/HTMLElement/style)*.
+  _Il est aussi possible de directement manipuler les styles via une API[<sup>ref</ref>](https://developer.mozilla.org/fr/docs/Web/API/HTMLElement/style)_.
 - Il y a un moyen d'ajouter la couleur d'arrière plan à l'ensemble des `paroles`... .
 
 @[Exercice 2]({"layout": "aside", "stubs": ["exo2/src/index.js", "exo2/read-only/index.html", "exo2/read-only/style.css"], "command": "echo \"TECHIO> open -s /project/target/exo2/src/ index.html\"" })
