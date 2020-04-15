@@ -13,6 +13,7 @@ Il en revient à vous pour corriger les erreurs qui y sont glissés
 > 3. Le refrain s'est dupliqué à cause de l'écho. Supprimez les occurences en double.  
 >    *N'oubliez pas de supprimer le `<br />` qui cause le retour à la ligne*
 > 4. Maintenant que toutes les erreurs ont été corrigées, supprimer l'élément ayant pour id `erreur`
+> 5. Ajoutez en bas de la page (dernier element de `<body>`), un `<footer>` contenant `&copy; Copyright 2020 - Nom`
 
 *Conseils :*
 
@@ -22,6 +23,8 @@ Il en revient à vous pour corriger les erreurs qui y sont glissés
    **Attention, ces fonctions retournent un tableau.**
  - Utilisez `parent.removeChild(enfant)`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Node/removeChild) afin de supprimer un élément `enfant` d'un élément `parent`.
  - Faites attention lorsque vous modifiez les elements d'une liste lors de son parcours.
+ - Utilisez `parent.appendChild(child)`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Node/appendChild) pour ajouter un element.  
+   **Attention, appendChild n'accepte que des `Node`**. il faut donc les créer, ce qui peut se faire avec `document.createElement()`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Document/createElement) pour créer un `Element` et `document.createTextNode("un texte")`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Document/createTextNode) pour créer un noeud de type `Text` contenant `un texte`.
 
 @[Exercice 1]({ "layout": "aside", "stubs": ["exo1/src/index.js", "exo1/read-only/index.html"], "command": "echo \"TECHIO> open -s /project/target/exo1/src/ index.html\"" })
 
