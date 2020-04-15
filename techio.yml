@@ -3,9 +3,9 @@ plan:
   - title: Manipulation du DOM en js vanilla
     description: Manipulation du DOM en utilisant les fonctionnalités natives javascript.
     plan:
-      - title: Exercice 1
+      - title: 1. Selection, suppression d'element
         statement: exercices/exo1/readme.md
-      - title: Exercice 2
+      - title: 2. Ajout d'attributs, classes
         statement: exercices/exo2/readme.md
 projects:
   nodejs:

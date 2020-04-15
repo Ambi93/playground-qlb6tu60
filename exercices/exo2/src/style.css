@@ -6,8 +6,6 @@
   background-color: blue;
 }
 
-div .red,
-div .blue {
-  width: 200px;
-  height: 200px;
+.italic {
+  font-style: italic;
 }
