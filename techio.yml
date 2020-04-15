@@ -1,4 +1,4 @@
-title: Test html + js
+title: Exercices de manipulation du DOM
 plan:
   - title: Manipulation du DOM en js vanilla
     description: Manipulation du DOM en utilisant les fonctionnalités natives javascript.
