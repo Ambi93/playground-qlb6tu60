@@ -1,7 +1,7 @@
 d3.select('#masquer-paroles')
   .datum(d3.select('#paroles').node())
   .on('click', function (d) {
-    d.node().classList.toggle('hidden');
+    d.classList.toggle('hidden');
   });
 
 const $refrains = d3.selectAll('.refrain').filter(function (_d, i) {
