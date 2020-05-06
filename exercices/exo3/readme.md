@@ -24,4 +24,6 @@ _Remarque_ : Il n'y a normalement pas besoin de modifier `index.html` et `style.
 
 :::
 
+**Lors de l'éxecution, il peux vous afficher une erreur, re-executer à nouveau regle généralement le problème.**
+
 @[Exercice 3]({"layout": "aside", "stubs": ["exo3/src/index.js", "exo3/src/index.html", "exo3/src/style.css"], "command": "echo \"TECHIO> open -s /project/target/ exo3/src/index.html\"" })

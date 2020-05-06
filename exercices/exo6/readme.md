@@ -1,4 +1,4 @@
-## Exercice 2
+## Exercice 6
 
 Cette fois, les paroles ont correctement été ajoutés. Mais ne parlant pas anglais, il n'as pas mis les bonnes couleurs à la chanson.
 
@@ -11,13 +11,12 @@ Cette fois, les paroles ont correctement été ajoutés. Mais ne parlant pas ang
 
 ::: _Conseils_
 
-- Utilisez l'attribut `classList`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/classList) d'un element afin de manipuler les classes de cet objet.
-- Vous ne pouvez pas modifier le css, mais vous pouvez ajouter l'attribut `style`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/style) en utilisant `setAttribute()`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/setAttribute) par exemple.  
-  _Il est aussi possible de directement manipuler les styles via une API[<sup>ref</ref>](https://developer.mozilla.org/fr/docs/Web/API/HTMLElement/style)_.
+- Utilisez la fonction `selection.classed()`[<sup>ref</sup>](https://github.com/d3/d3-selection#selection_classed) d'une `selection` afin d'ajouter ou supprimer les classes.
+- Vous ne pouvez pas modifier le css, mais vous pouvez ajouter l'attribut `selection.style()`[<sup>ref</sup>](https://github.com/d3/d3-selection#selection_style)
 - Il y a un moyen d'ajouter la couleur d'arrière plan à l'ensemble des `paroles`... .
 
 :::
 
 **Lors de l'éxecution, il peux vous afficher une erreur, re-executer à nouveau regle généralement le problème.**
 
-@[Exercice 2]({"layout": "aside", "stubs": ["exo2/src/index.js", "exo2/read-only/index.html", "exo2/read-only/style.css"], "command": "echo \"TECHIO> open -s /project/target/ exo2/src/index.html\"" })
+@[Exercice 6]({"layout": "aside", "stubs": ["exo6/src/index.js", "exo6/read-only/index.html", "exo6/read-only/style.css"], "command": "echo \"TECHIO> open -s /project/target/ exo6/src/index.html\"" })

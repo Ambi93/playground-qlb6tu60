@@ -49,5 +49,6 @@ Pour cet exercice, la Créatrice n'as pas pu être travailler à cause du confin
 
 :::
 
+**Lors de l'éxecution, il peux vous afficher une erreur, re-executer à nouveau regle généralement le problème.**
 
 @[Exercice 4]({"layout": "aside", "stubs": ["exo4/src/index.js", "exo4/src/index.html", "exo4/src/style.css", "exo4/src/chanson.js"], "command": "echo \"TECHIO> open -s /project/target/ exo4/src/index.html\"" })

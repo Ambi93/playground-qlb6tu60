@@ -27,4 +27,6 @@ Il en revient à vous pour corriger les erreurs qui y sont glissés.
 
 :::
 
+**Lors de l'éxecution, il peux vous afficher une erreur, re-executer à nouveau regle généralement le problème.**
+
 @[Exercice 1]({ "layout": "aside", "stubs": ["exo1/src/index.js", "exo1/read-only/index.html"], "command": "echo \"TECHIO> open -s /project/target/ exo1/src/index.html\"" })
