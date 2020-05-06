@@ -4,7 +4,7 @@
 
 // 2.
 // pour ajouter une classe :
-//d3.selectAll(A_COMPLETER).classed('italic', true);
+//A_COMPLETER.classed('une_classe', true);
 
 // 3.
 
