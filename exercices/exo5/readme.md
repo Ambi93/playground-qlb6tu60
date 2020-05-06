@@ -15,7 +15,7 @@ Les exercices 5, 6, 7, 8 sont les mêmes que les exercices 1, 2, 3, 4. Sauf qu'a
 > 4. Maintenant que toutes les erreurs ont été corrigées, supprimer l'élément ayant pour id `erreur`
 > 5. Ajoutez en bas de la page (dernier element de `<body>`), un `<footer>` contenant `© Copyright 2020 - Nom`
 
-::: _Conseils_
+::: Conseils
 
 - d3 suit une logique differente que celle de la manipulation de DOM en natif. Inspirez vous des commentaires dans l'`index.js`
 - Utilisez `d3.select("balise")` pour sélectionner un element.

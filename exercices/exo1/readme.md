@@ -14,7 +14,7 @@ Il en revient à vous pour corriger les erreurs qui y sont glissés.
 > 4. Maintenant que toutes les erreurs ont été corrigées, supprimer l'élément ayant pour id `erreur`
 > 5. Ajoutez en bas de la page (dernier element de `<body>`), un `<footer>` contenant `© Copyright 2020 - Nom`
 
-::: _Conseils_
+::: Conseils
 
 - Utilisez `firstElementChild`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/ParentNode/firstElementChild) pour sélectionner le premier `Element` d'un Node.
 - Utilisez `document.getElementById("un_id")`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Document/getElementById) pour récuperer un élément ayant pour id `un_id`.

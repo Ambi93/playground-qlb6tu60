@@ -9,7 +9,7 @@ Cette fois, les paroles ont correctement été ajoutés. Mais ne parlant pas ang
 > 3. La couleur de la classe `blue` est trop forte, trouvez un moyen de mettre une couleur blue plus douce (`#8A2BE2`, `#6495ED` par exemple).
 > 4. Avez vous réussi a ne pas laisser d'espaces blancs entre chaque paragraphe ?
 
-::: _Conseils_
+::: Conseils
 
 - Utilisez la fonction `selection.classed()`[<sup>ref</sup>](https://github.com/d3/d3-selection#selection_classed) d'une `selection` afin d'ajouter ou supprimer les classes.
 - Vous ne pouvez pas modifier le css, mais vous pouvez ajouter l'attribut `selection.style()`[<sup>ref</sup>](https://github.com/d3/d3-selection#selection_style)

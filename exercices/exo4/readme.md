@@ -31,7 +31,7 @@ Pour cet exercice, la Créatrice n'as pas pu être travailler à cause du confin
 > 4. [_Optionnel_] Vous pouvez ajouter les interacteurs de l'exercice précédent.  
 >   Pensez par contre que vous ne pouvez sélectionner les éléments qu'une fois qu'ils ont été ajoutés à la page.
 
-::: _Conseils_
+::: Conseils
 
 - Le but est de tout faire en js.
 - Observez la structure de la donnée qui vous est fournie.

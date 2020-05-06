@@ -9,7 +9,7 @@ Cette fois, les paroles ont correctement été ajoutés. Mais ne parlant pas ang
 > 3. La couleur de la classe `blue` est trop forte, trouvez un moyen de mettre une couleur blue plus douce (`#8A2BE2`, `#6495ED` par exemple).
 > 4. Avez vous réussi a ne pas laisser d'espaces blancs entre chaque paragraphe ?
 
-::: _Conseils_
+::: Conseils
 
 - Utilisez l'attribut `classList`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/classList) d'un element afin de manipuler les classes de cet objet.
 - Vous ne pouvez pas modifier le css, mais vous pouvez ajouter l'attribut `style`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels/style) en utilisant `setAttribute()`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/setAttribute) par exemple.  
