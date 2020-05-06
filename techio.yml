@@ -20,7 +20,8 @@ plan:
         statement: exercices/exo6/readme.md
       - title: 3. Evenements et interactions
         statement: exercices/exo7/readme.md
-
+      - title: 4. Pour résumer
+        statement: exercices/exo8/readme.md
 projects:
   nodejs:
     root: /exercices

@@ -38,11 +38,12 @@ Pour cet exercice, la Créatrice n'as pas pu être travailler à cause du confin
 - N'hésitez pas a créer des fonctions et a structurer votre code pour simplifier la lecture de certaines opérations. Par exemple, une fonction qui permet de créer un couplet.
 - References:
     - `d3-selection`[<sup>ref</sup>](https://github.com/d3/d3-selection) .
-    - `document.select("#un_id")`[<sup>ref</sup>](https://github.com/d3/d3-selection#select).
-    - `document.selectAll(".nom_classe")`[<sup>ref</sup>](https://github.com/d3/d3-selection#selectAll)
+    - `d3.select("#un_id")`[<sup>ref</sup>](https://github.com/d3/d3-selection#select).
+    - `d3.selectAll(".nom_classe")`[<sup>ref</sup>](https://github.com/d3/d3-selection#selectAll)
     - `selection.remove()`[<sup>ref</sup>](https://github.com/d3/d3-selection#selection_remove) afin de supprimer un élément `selection` un élément `parent`.
     - `selection.append("div")`[<sup>ref</sup>](https://github.com/d3/d3-selection#selection_append) pour créer un `div` enfant
-    - `document.createElement("div")`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Document/createElement) pour créer un `Element`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element) (dans ce cas, un `div`)
+    - `d3.create('div')`[<sup>ref</sup>](https://github.com/d3/d3-selection#create).
+    - `selection.node()`[<sup>ref</sup>](https://github.com/d3/d3-selection#selection_node) ou `selection.nodes()`(https://github.com/d3/d3-selection#selection_nodes) pour récuperer le(s) `Element` DOM de la sélection.
     - `document.createTextNode("un texte")`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Document/createTextNode) pour créer un noeud de type `Text`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Text) contenant `un texte`.
 
 :::
