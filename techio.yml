@@ -18,6 +18,8 @@ plan:
         statement: exercices/exo5/readme.md
       - title: 2. Ajout d'attributs, classes
         statement: exercices/exo6/readme.md
+      - title: 3. Evenements et interactions
+        statement: exercices/exo7/readme.md
 
 projects:
   nodejs:
