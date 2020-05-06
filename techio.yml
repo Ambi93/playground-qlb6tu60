@@ -9,7 +9,7 @@ plan:
         statement: exercices/exo2/readme.md
       - title: 3. Evenements et interactions
         statement: exercices/exo3/readme.md
-      - title: 3. Pour résumer
+      - title: 4. Pour résumer
         statement: exercices/exo4/readme.md
 projects:
   nodejs:
