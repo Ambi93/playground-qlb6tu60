@@ -17,7 +17,8 @@ Il en revient à vous pour corriger les erreurs qui y sont glissés.
 ::: Conseils
 
 - Utilisez `firstElementChild`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/ParentNode/firstElementChild) pour sélectionner le premier `Element` d'un Node.
-- Utilisez `childNodes`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Node/childNodes) pour sélectionner les `Node` enfants d'un Node.
+- Utilisez `firstChild`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/ParentNode/firstChild) pour sélectionner le premier `Node` d'un Node.
+- Utilisez `childNodes`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Node/childNodes) pour sélectionner les sous-`Node`s d'un Node.
 - Utilisez `document.getElementById("un_id")`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Document/getElementById) pour récuperer un élément ayant pour id `un_id`.
 - Pour sélectionner tous les éléments qui possèdent une classe, utilisez `document.getElementsByClassName("nom_classe")`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Element/getElementsByClassName) ou `document.querySelectorAll(".nom_classe")`[<sup>ref</sup>](https://developer.mozilla.org/fr/docs/Web/API/Document/querySelectorAll)  
   **Attention, ces fonctions retournent un tableau.**
